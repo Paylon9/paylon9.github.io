@@ -19,7 +19,7 @@ var itemsDict = [
 	{type: "music", route: "https://www.youtube.com/watch?v=NCtzkaL2t_Y&list=UU4dqLAF7yT-_DqeYisQ001w", img: "images/Beatles.png", title: ""},
 	{type: "music", route: "https://www.youtube.com/watch?v=9f6V-QehbU4&list=RD9f6V-QehbU4#t=6", img: "images/Jazz.png", title: ""},
 ]
-
+ 
 var ItemsView = Backbone.View.extend({
 	el: $('#items'),
 
