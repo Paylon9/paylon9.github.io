@@ -1,9 +1,8 @@
 body {background: #F2F2F2; overflow: hidden;}
 a {text-decoration: none !important;}
-
 .item {
-	margin-top: 1%;
-	max-height: 49vh;
+	margin-top: 2.5vh;
+	max-height: 46vh;
 }
 /*#items {border: 1px solid red;}*/
 .thumbnail {
@@ -11,7 +10,7 @@ a {text-decoration: none !important;}
 	background: #F2F2F2;
 }
 .thumbnail img {
-	max-height: 39vh;
+	max-height: 45vh;
 	border-radius: 13%;
 	transition: 0.3s;
 }
@@ -25,7 +24,7 @@ a {text-decoration: none !important;}
 	font-size: 170%;
 }
 
-@media (max-height: 600px) {
+/*@media (max-height: 600px) {
 	.thumbnail img {
 		max-height: 35vh;
 	}
@@ -56,4 +55,4 @@ a {text-decoration: none !important;}
 	.thumbnail h4 {
 		font-size: 70%;
 	}
-}
+}*/

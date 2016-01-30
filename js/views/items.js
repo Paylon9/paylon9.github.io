@@ -1,23 +1,23 @@
 var itemsDict = [
-	{type: "home", route: "#phone", img: "images/Phone.png", title: "Phone"},
-	{type: "home", route: "#music", img: "images/Music.png", title: "Music"},
-	{type: "home", route: "#tv", img: "images/TV.png", title: "TV"},
-	{type: "home", route: "", img: "images/PC.png", title: "PC"},
+	{type: "home", route: "#phone", img: "images/Phone.png", title: ""},
+	{type: "home", route: "#music", img: "images/Music.png", title: ""},
+	{type: "home", route: "#tv", img: "images/TV.png", title: ""},
+	{type: "home", route: "", img: "images/story.png", title: ""},
 
-	{type: "phone", route: "skype:ivan_pavlov_1989?chat", img: "images/PersonThubnail.png", title: "John"},
-	{type: "phone", route: "skype:ivan_pavlov_1989?chat", img: "images/PersonThubnail.png", title: "Alex"},
-	{type: "phone", route: "skype:ivan_pavlov_1989?chat", img: "images/PersonThubnail.png", title: "Billy"},
-	{type: "phone", route: "skype:ivan_pavlov_1989?chat", img: "images/PersonThubnail.png", title: "Michael"},
+	{type: "phone", route: "skype:dolphinlena?chat", img: "images/skype1.png", title: ""},
+	{type: "phone", route: "#phone", img: "images/skype2.png", title: ""},
+	{type: "phone", route: "#phone", img: "images/skype3.png", title: ""},
+	{type: "phone", route: "#phone", img: "images/skype4.png", title: ""},
 
-	{type: "tv", route: "https://www.youtube.com/watch?v=pJ_ekD5RIiw&list=PLG3_buLmppojQeCdi0koJc2hKSImoQuXI", img: "images/Fishing.png", title: "Fishing"},
-	{type: "tv", route: "https://www.youtube.com/watch?v=3gOAqF8Vwd0&index=2&list=PLS3XGZxi7cBVNadbxDqZCUgISvabEpu-g", img: "images/BBC.png", title: "BBC News"},
-	{type: "tv", route: "https://www.youtube.com/watch?v=mbWgN-BsIZU&list=PLPglX4LjfEak7jkHScWeEl6Zd8Ui6opOB", img: "images/Voice.png", title: "The Voice"},
-	{type: "tv", route: "https://www.youtube.com/watch?v=fpLokB6MOr4&list=PLiCk2I6PXl5p27Bbwq4cj3phvHwwbABLr", img: "images/Discovery.png", title: "Discovery"},
+	{type: "tv", route: "https://www.youtube.com/watch?v=pJ_ekD5RIiw&list=PLG3_buLmppojQeCdi0koJc2hKSImoQuXI", img: "images/Fishing.png", title: ""},
+	{type: "tv", route: "https://www.youtube.com/watch?v=3gOAqF8Vwd0&index=2&list=PLS3XGZxi7cBVNadbxDqZCUgISvabEpu-g", img: "images/BBC.png", title: ""},
+	{type: "tv", route: "https://www.youtube.com/watch?v=mbWgN-BsIZU&list=PLPglX4LjfEak7jkHScWeEl6Zd8Ui6opOB", img: "images/Voice.png", title: ""},
+	{type: "tv", route: "https://www.youtube.com/watch?v=S1R4XoYzKrU&list=PLLb4Aujw26R5XzUv0iO-D1TRRlZaYo8-m", img: "images/Discovery.png", title: ""},
 
-	{type: "music", route: "https://www.youtube.com/watch?v=W-fFHeTX70Q&list=RDW-fFHeTX70Q#t=2", img: "images/Beethoven.png", title: "Beethoven"},
-	{type: "music", route: "https://www.youtube.com/watch?v=xFrGuyw1V8s&list=PLIuMnu__lJkEAIjUjtV7pcGarsphLZ-Ru", img: "images/ABBA.png", title: "ABBA"},
-	{type: "music", route: "https://www.youtube.com/watch?v=NCtzkaL2t_Y&list=UU4dqLAF7yT-_DqeYisQ001w", img: "images/Beatles.png", title: "The Beatles"},
-	{type: "music", route: "https://www.youtube.com/watch?v=9f6V-QehbU4&list=RD9f6V-QehbU4#t=6", img: "images/Jazz.png", title: "Jazz"},
+	{type: "music", route: "https://www.youtube.com/watch?v=W-fFHeTX70Q&list=RDW-fFHeTX70Q#t=2", img: "images/Beethoven.png", title: ""},
+	{type: "music", route: "https://www.youtube.com/watch?v=xFrGuyw1V8s&list=PLIuMnu__lJkEAIjUjtV7pcGarsphLZ-Ru", img: "images/ABBA.png", title: ""},
+	{type: "music", route: "https://www.youtube.com/watch?v=NCtzkaL2t_Y&list=UU4dqLAF7yT-_DqeYisQ001w", img: "images/Beatles.png", title: ""},
+	{type: "music", route: "https://www.youtube.com/watch?v=9f6V-QehbU4&list=RD9f6V-QehbU4#t=6", img: "images/Jazz.png", title: ""},
 ]
 
 var ItemsView = Backbone.View.extend({
