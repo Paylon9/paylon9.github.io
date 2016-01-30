@@ -1,6 +1,6 @@
 var itemsDict = [
-	{type: "home", route: "#phone", img: "images/Phone.png", title: ""},
-	{type: "home", route: "#music", img: "images/Music.png", title: ""},
+	{type: "home", route: "#phone", img: "images/phone.png", title: ""},
+	{type: "home", route: "#music", img: "images/music.png", title: ""},
 	{type: "home", route: "#tv", img: "images/TV.png", title: ""},
 	{type: "home", route: "", img: "images/story.png", title: ""},
 
